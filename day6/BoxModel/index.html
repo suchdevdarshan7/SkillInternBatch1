@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box; 
+            /* To make the padding and border not affect the size of the container we will use border-box  */
+        }
+        .container{
+            height: 90vh;
+            background-color: black;
+        }
+        .box{
+            display: inline-block;
+            height: 100px; 
+            width: 100px; 
+            background-color: dodgerblue;
+            margin-left:100px;
+            padding-top: 20px;
+            padding-left:20px;
+
+            border-color: red;
+            border-width: 10px;
+            border-style: solid;
+
+            border-radius: 20px;
+
+            outline: 2px solid white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+</body>
+</html>

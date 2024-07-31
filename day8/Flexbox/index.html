@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+        }
+         
+        /* .container
+        {
+            height: 100vh;
+            background-color: aquamarine;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+
+        }
+        .box{
+            background-color: brown;
+            height:50px; 
+            width:50px; 
+            border: 1px solid black;
+        } */
+
+        /* .container{
+            height: 100vh;
+            background-color: navy;
+            display: flex; 
+            justify-content: space-around ; /* horizontal  */
+           /*align-items: center; vertically  
+        } */
+
+        .container{
+            /* When flex direction is on column the justify-content will work as vertically  */
+            /* When flex direction is on column the align-items  will work as horizontally  */
+            
+            height: 100vh;
+            background-color: navy;
+            display: flex;
+            flex-wrap: wrap;
+            /* flex-direction: column; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* gap: 10px; */
+        }
+        .box{
+            height: 100px; 
+            width: 100px; 
+            background-color: cyan;
+            border: 1px solid black;
+
+        }
+
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

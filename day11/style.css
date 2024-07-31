@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box1,
+.box2 {
+    height: 300px;
+    width: 300px;
+    background-color: green;
+
+    /* transition-property: background-color;
+    transition-duration: 2s; */
+
+   transition: all 0.8s ;
+    
+}
+
+.box1:hover{
+    background-color: red; 
+    transform: scale(1.2);
+}
+
+/* .box1:hover {
+
+    /* transform: scaleY(1.5); */
+    /* First value is x axis and the second value is Y axis */
+    /* transform: scale(2,2); */
+    /* transform: translateX(100px);
+    transform: translateY(-100px); */
+    /* transform: translate(100px,200px); */
+    /* transform: skewX(10deg); */
+
+
+    /* transform: skewY(10deg); */
+
+    /* transform: skew(10deg,20deg); */
+
+    /* transform: rotateY(2turn); */
+    /* transform: rotate(2turn); */
+
+
+
+    transform: rotate(1turn ) scale(0.6);
+
+
+} */
+
+

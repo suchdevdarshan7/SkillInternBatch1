@@ -1,0 +1,12 @@
+{
+  "name": "javascript-day12-day23",
+  "version": "1.0.0",
+  "description": "<!-- const jsonString = '{\"name\":\"John Doe\",\"age\":30,\"hobbies\":[\"reading\",\"traveling\",\"coding\"],\"address\":{\"street\":\"123 Main St\",\"city\":\"Anytown\",\"country\":\"USA\"}}'; -->",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

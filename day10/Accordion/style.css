@@ -1,0 +1,31 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px; 
+    background: url(https://cdn.pixabay.com/photo/2022/09/21/17/02/blue-background-7470781_640.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.box{
+    width:50%;
+    box-shadow: 0px 3px 5px 5px rgba(0,0,0,0.2);
+    padding:20px; 
+    border-radius: 12px; 
+    background-color: white; 
+}
+.box p{
+    display: none;
+}
+.box.active p{
+    display: block;
+}

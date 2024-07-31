@@ -1,0 +1,111 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+.navigation{
+    height:80px; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 5px 20px 5px rgba(0,0,0,0.1);
+}
+.navigation h1{
+    color: #333;
+    font-size: 30px;
+}
+.navigation h1 span{
+    color: red;
+}
+.navigation ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px; 
+}
+
+select{
+    color: #555;
+    font-size:13px; 
+    font-weight: 500;
+}
+li:nth-child(7) select{
+    width:120px; 
+    border: none;
+    padding:10px; 
+}
+select:focus{
+    outline: none;
+}
+
+.btn{
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+}
+
+.navigation--button{
+    text-decoration: none;
+    background-color: red;
+    color: white; 
+    padding: 8px 20px; 
+    border-radius: 100px; 
+    font-size:15px; 
+}
+.navigation--button:hover{
+    background-color: #ff00009d;
+}
+.header__section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header__section div:first-child{
+    display: flex;
+    flex-direction: column;
+    gap:20px; 
+}
+
+.header__section div:first-child p{
+    width:580px;
+    font-size:23px; 
+    color: #888;
+}
+
+.header__section div h1 span {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 60px; 
+    display: block;
+    color: #444;
+}
+.header__section div img{
+    height: 80%;
+    margin-top:10px; 
+    animation: animation 2s ;
+}
+
+.buttons{
+    display: flex;
+    gap:20px; 
+}
+.buttons a{
+    text-decoration: none;
+    padding:13px 20px; 
+    background-color: red;
+    color: #fff;
+    border-radius: 100px; 
+}
+
+@keyframes animation {
+    0%{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100%{
+        opacity: 1;
+        tranform: translate(0);
+    }
+}

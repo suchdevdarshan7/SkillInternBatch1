@@ -1,0 +1,38 @@
+ :root{
+    --primary-color: red;
+    --secondary-text-color: #fff;
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+ }
+
+ .container {
+     height: 100vh;
+     background-color: aqua;
+     padding-top: 100px;
+     padding-left: 100px;
+ }
+
+ .link:link,
+ .link:visited {
+     color: var(---secondary-text-color);
+     background-color: navy;
+     border-radius: 13px;
+     display: inline-block;
+     height: 30px;
+     width: 140px;
+     text-align: center;
+     text-decoration: none;
+
+ }
+
+ .link:hover,
+ .link:active {
+     color: var(---secondary-text-color);
+     background-color: var(--primary-color);
+     text-decoration: line-through;
+ }

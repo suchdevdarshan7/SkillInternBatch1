@@ -1,0 +1,33 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+body{
+    padding:50px; 
+}
+ 
+
+.container{
+    display: flex; 
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap:20px; 
+}
+.box{
+    height: 250px; 
+    width:250px;
+    border: 1px solid black ; 
+}
+
+.box h1{
+    font-size: 18px; 
+}
+
+img{
+    height:60%;
+    width: 80%;
+}

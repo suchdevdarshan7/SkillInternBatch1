@@ -1,0 +1,46 @@
+
+/* Element selector or tag selector  */
+div{
+    background-color: beige;
+    height: 500px; 
+    width:500px; 
+}
+/* Id selector # is important==> # represents id */
+
+/* #heading{
+    background-color: red; 
+} */
+
+/* Generic class selector .is important . represents ==>  class */
+
+/* .container{
+    color: green;
+} */
+
+/* Class selector */
+
+/* p.container{
+    color: red; 
+} */
+
+/* universal selector * it is applied to all the tags  */
+
+*{
+    color: crimson;
+}
+
+/* attribute selector :  */
+
+/* input[value]{
+    background-color: dodgerblue;
+} */
+
+/* Attribute value selector */
+
+/* input[type="text"]{
+    background-color: red; 
+}
+ */
+
+
+ 

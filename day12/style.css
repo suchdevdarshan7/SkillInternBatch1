@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background-color: navy;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    height: 400px;
+    width: 400px;
+    background-color: beige;
+    /* animation-name: changeColors;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in; */
+
+    animation: changeColors 5s infinite ease-out;
+    
+}
+
+
+
+
+
+/* @keyframes rotateIt {
+    from{
+
+    }
+    to{
+        transform: rotate(2turn);
+    }
+} */
+
+@keyframes changeColors {
+    0% {
+        background-color: yellow;
+        transform: scale(1.5);
+    }
+
+    20% {
+        background-color: violet;
+    }
+
+    40% {
+        background-color: red;
+    }
+
+    60% {
+        background-color: mediumaquamarine;
+    }
+
+    80% {
+        background-color: mediumspringgreen;
+    }
+
+    100% {
+        background-color: tomato;
+    }
+}
